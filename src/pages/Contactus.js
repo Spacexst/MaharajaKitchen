@@ -1,7 +1,10 @@
 import React from "react";
 
 function Contactus (){
+    const handleClick = () =>
+	{ alert("Thank you")}
     return(
+        
         <div className="contact">
         <div className="contact-container" >
         
@@ -42,6 +45,7 @@ function Contactus (){
 
         </div>
         <div className="button-contact">
+        
         <a href="#" className="">submit</a>
                  
         </div>
